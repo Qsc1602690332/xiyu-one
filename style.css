@@ -1,0 +1,197 @@
+p {
+  align-items: center;
+  text-align: center;
+  margin: 0%;
+}
+header {
+  background-image: url(天迹.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0.2);
+  height: 500px;
+}
+/*下面是首页的标题和小字的设置*/
+.biaoti {
+  color: #eff2f2;
+  font-size: 50px;
+  margin: 5px 0;
+}
+.xiaozi {
+  color: #eff2f2;
+  font-size: 15px;
+  margin: 15px 0;
+}
+.juzho {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 62px);
+}
+header a {
+  color: rgb(222, 198, 198);
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header li {
+  display: inline;
+  margin-right: 3vw;
+}
+header ul {
+  position: absolute;
+  right: 1vw;
+  top: 0;
+  line-height: 80px;
+}
+/*下面是爱好的设置*/
+.biaoti2 {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 60px;
+  color: rgb(255, 164, 164);
+  letter-spacing: 1.5rem;
+  background-color: rgb(255, 245, 245);
+  margin: 0 0 auto;
+  height: 60px;
+}
+.aihaobeijing {
+  background-color: rgb(255, 245, 245);
+}
+.aihaoneiro {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shuge {
+  color: rgb(255, 164, 164);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.hengzi {
+  flex: 1 0 1;
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.459);
+  background-color: rgb(239, 232, 232);
+}
+.tupian {
+  width: 250px;
+  height: 250px;
+}
+.tuijie {
+  width: 250px;
+  height: 32px;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+/*下面是爱好的链接*/
+.liangjie {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+/*下面是学习的设置*/
+.xuexi {
+  background-color: #fff;
+  height: 500px;
+  display: flex;
+  margin: 100px 100px;
+}
+.xuexizuo {
+  display: flex;
+  flex: auto;
+  width: 285px;
+  height: 500px;
+}
+.xuexiyou {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  text-indent: 2rem;
+}
+.biaoti3 {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  color: rgb(255, 164, 164);
+  letter-spacing: 1.5rem;
+  margin: 25px;
+}
+
+/*下面是联系的设置*/
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.lianxi {
+  background-color: rgb(255, 245, 245);
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+.lianxi1 {
+  font-size: 25px;
+  margin: 10px;
+}
+.lianxi2 {
+  margin: 10px;
+}
+.lianxi3 {
+  width: 500px;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: 0;
+  background-color: #fff;
+  outline: none;
+}
+.lianxi4 {
+  width: 150px;
+  padding: 10px;
+  border: 1px solid rgb(255, 164, 164);
+  background-color: rgb(255, 245, 245);
+  color: rgb(255, 164, 164);
+  margin: 0 auto;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+}
+input::placeholder {
+  color: #140d0ddd;
+}
+
+/*下面是备案的设置*/
+.beian {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
