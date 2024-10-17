@@ -4,7 +4,7 @@ p {
   margin: 0%;
 }
 header {
-  background-image: url(天迹.jpg);
+  background-image: url(望.jpg);
   background-size: cover;
   background-position: center;
   filter: grayscale(0.2);
@@ -30,7 +30,7 @@ header {
   height: calc(100% - 62px);
 }
 header a {
-  color: rgb(222, 198, 198);
+  color: rgb(255, 191, 191);
   text-decoration: none;
 }
 header a:hover {
